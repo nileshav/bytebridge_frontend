@@ -1,0 +1,24 @@
+✅ Step-by-Step: Install React on Windows
+🔹 Step 1: Install Node.js
+Go to the official website:
+👉 https://nodejs.org/
+Download the LTS (Long-Term Support) version for Windows.
+Run the installer:
+Accept the license
+Keep all default settings
+Make sure npm package manager is selected during installation
+Restart your terminal (or your computer if needed)
+---------------------------------------------------------------
+Verify Installation
+Open a new terminal (PowerShell or CMD) and run:
+node -v
+npm -v
+npx -v
+---------------------------------------------------------------
+Step 3: Create Your React App
+Now repeat the setup:
+mkdir bytebridge_frontend
+cd bytebridge_frontend
+npx create-react-app .
+npm install react-router-dom
+npm start
